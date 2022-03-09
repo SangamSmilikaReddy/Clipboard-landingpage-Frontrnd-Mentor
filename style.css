@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+body{
+    background-image: url(bg-header-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-self: center;
+    color: hsl(210, 10%, 33%);
+    Font-size: 18px;
+}
+.mainpart{
+    margin:  auto;
+    padding-top: 100px;
+}
+.mainpart h1{
+    margin-top: 20px;
+    font-weight: 600;
+}
+.mainpart p{
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+    font-weight: 400;
+    word-spacing: 3px;
+    text-indent: 50px ;
+    line-height: 30px;
+}
+.mainpart img{
+    height: 120px;
+    width: 120px;
+}
+.mainpart p span{
+    padding-top:10px;
+    margin-top: 20px;
+}
+#devices{
+    height: 500px;
+    width: 800px;
+    margin-top: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    border: none;
+    color: white ;
+    padding: 10px 30px 10px 30px;
+    margin: 10px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 40px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 2px hsl(171, 48%, 31%);
+    font-weight: 400;
+    word-spacing: 3px;
+} 
+.os{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 3px 3px 2px hsl(233, 45%, 53%);
+}
+
+button:hover{
+    box-shadow: 3px 3px hsl(171, 48%, 31%);
+}
+.os:hover{
+    box-shadow: 3px 3px hsl(233, 45%, 53%);
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    word-spacing: 3px;
+}
+.inbox{
+    padding-left: 110px;
+
+}
+.inbox h3{
+    padding-top: 70px;
+    font-weight: 600;
+}
+.inbox p{
+    padding-top:10px;
+    font-weight: 400;
+    font-size: 16px;
+    word-spacing: 3px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    padding-top: 40px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.logos img{
+    padding-left: 100px;
+}
+
+.workinfo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.script img{
+    height: 40px;
+    width: 40px;
+}
+.script{
+    padding-left: 30px;
+}
+.script h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.script p{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 3px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(195, 8%, 90%);
+    margin-top: 150px;
+}
+#lg{
+    margin-top: 40px;
+    padding-right: 150px;
+    width: 55px;
+    height: 55px;
+}
+nav{
+    display: flex;
+    max-width: 600px;
+    padding: 30px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    margin: auto ;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+    word-spacing: 3px;
+}
+.images img{
+    width: 25px;
+    height: 25px;
+    margin-top: 60px;
+    padding-left: 20px;
+}
+.images{
+    padding-left: 300px;
+}
+.images a:hover{
+    opacity: 0.8;
+}
+
+nav ul li a:hover{
+    font-weight: Bold;
+}
